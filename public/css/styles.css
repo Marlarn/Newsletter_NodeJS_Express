@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  color: #f2f2f2;
+}
+
+body {
+  background-color: #1a1a1a;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #8533ff;
+  border: 1px solid #8533ff;
+}
+.btn:hover {
+  background-color: #751aff;
+  border: 1px solid #751aff;
+}
+.btn:focus {
+  background-color: #751aff;
+  border: 1px solid #751aff;
+  outline: 2px solid white;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin-bottom: 100px;
+}
+
+.form-signin label {
+  margin-top: 16px;
+
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  
+}
+.middle {
+  
+}
+.bottom {
+  margin-bottom: 32px;
+}
